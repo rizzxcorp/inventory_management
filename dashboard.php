@@ -243,6 +243,7 @@ footer p {
             <nav>
                 <a href="dashboard.php">Dashboard</a>
                 <a href="inventory.php">Inventory</a>
+                <a href="buku.php">buku</a>
                 <a href="logout.php">Logout</a>
             </nav>
         </header>
