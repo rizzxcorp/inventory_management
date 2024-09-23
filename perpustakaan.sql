@@ -3,7 +3,11 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
+<<<<<<< HEAD
 -- Waktu pembuatan: 23 Sep 2024 pada 02.37
+=======
+-- Waktu pembuatan: 18 Sep 2024 pada 15.07
+>>>>>>> 75c761e8dfdc5afd4e10c6b25339d8496a89366d
 -- Versi server: 10.4.28-MariaDB
 -- Versi PHP: 8.2.4
 
@@ -63,6 +67,7 @@ INSERT INTO `inventory` (`id`, `item_name`, `quantity`) VALUES
 -- --------------------------------------------------------
 
 --
+<<<<<<< HEAD
 -- Struktur dari tabel `peminjaman`
 --
 
@@ -78,6 +83,8 @@ CREATE TABLE `peminjaman` (
 -- --------------------------------------------------------
 
 --
+=======
+>>>>>>> 75c761e8dfdc5afd4e10c6b25339d8496a89366d
 -- Struktur dari tabel `users`
 --
 
