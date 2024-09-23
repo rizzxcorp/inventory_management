@@ -243,6 +243,7 @@ footer p {
             <nav>
                 <a href="dashboard.php">Dashboard</a>
                 <a href="inventory.php">Inventory</a>
+                <a href="buku.php">buku</a>
                 <a href="logout.php">Logout</a>
             </nav>
         </header>
@@ -272,7 +273,7 @@ footer p {
                             $result = $conn->query($sql);
 
                             if ($result === false) {
-                                echo "<tr><td colspan='4'>Error executing query: " . htmlspecialchars($conn->error) . "</td></tr>";
+                                echo "<tr><td colspan='4'>Error executing query: " . htmlspecialchars($conn-> Error) . "</td></tr>";
                             } elseif ($result->num_rows > 0) {
                                 while ($row = $result->fetch_assoc()) {
                                     echo "<tr>";
